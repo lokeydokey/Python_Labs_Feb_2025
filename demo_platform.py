@@ -6,6 +6,7 @@
 """
 import os
 import sys
+
 if sys.platform == "win32":
     home_dir = os.environ["HOMEPATH"]
 else:

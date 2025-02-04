@@ -8,11 +8,11 @@
 import random
 
 lotto = []
-win_lotto = [36,34,6,8,19,48]
+win_lotto = [36,34,6,18]
 
 while lotto != win_lotto:
     lotto = []
-    while len(lotto) <6:
+    while len(lotto) <4:
         num = random.randint (1,50)
         if num not in lotto:
             lotto.append(num)

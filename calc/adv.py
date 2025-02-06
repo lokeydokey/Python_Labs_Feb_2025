@@ -28,4 +28,5 @@ print (f"100 % 30 = {mod (100, 30)}")
 print(f"100 ** 3 = {power(100, 3)}")
 print(f"\N{square root}100 = {sqrt(100)}")
 
+
 sys.exit(0)

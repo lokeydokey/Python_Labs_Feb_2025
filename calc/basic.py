@@ -27,12 +27,14 @@ def div(x, z):
         return print("Division by 0!")
     else:
         return round(x/z,3)
+def main():
+    print(f"4 + 3 = {add(4, 3)}")
+    print(f"4 + 3 + 2 = {add(4, 3, 2)}")
+    print(f"4 * 3 = {mul(4, 3)}")
+    print(f"4 * 3 * 2 = {mul(4, 3, 2)}")
+    print(f"4 / 3 = {div(4, 0)}")
+    sys.exit(0) # Exit program with 0 errors.
 
-print(f"4 + 3 = {add(4, 3)}")
-print(f"4 + 3 + 2 = {add(4, 3, 2)}")
-print(f"4 * 3 = {mul(4, 3)}")
-print(f"4 * 3 * 2 = {mul(4, 3, 2)}")
-print(f"4 / 3 = {div(4, 0)}")
-
-
-sys.exit(0) # Exit program with 0 errors.
+if __name__ == "__main__":
+    main()
+    sys.exit(0)

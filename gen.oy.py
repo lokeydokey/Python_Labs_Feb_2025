@@ -17,5 +17,5 @@ print(list(frange(-1, -0.5, 0.1)))
 for num in frange(3.142, 12):
     print(f"{num:05.2f}")
 
-
+print (frange (1,2))
 print (frange (1,2))
